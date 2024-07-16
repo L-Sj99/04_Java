@@ -30,7 +30,7 @@ public class VariableEx1 {
 		 * char (2byte) : 문자형 - 문자 하나를 의미, 'A'
 		 * */
 		
-		// 변수 선언 : 메모리에 값으 저장할 공간을 만든다(== 할당)
+		// 변수 선언 : 메모리에 값의 저장할 공간을 만든다(== 할당)
 		
 		int num1; // 메모리에 int형 데이터(정수)를 저장하기 위한 공간 4byte를 할당하고 변수 이름을 num1이라고 지정
 		
@@ -54,7 +54,7 @@ public class VariableEx1 {
 		System.out.println("isFalse : " + isFalse);
 		
 		// JS에서는 true == 1 비교 가능 했으나 Java는 안됨
-		// 자료형 이 같지 않아서 비교 불가
+		// 자료형이 같지 않아서 비교 불가
 		// Sytem.out.println(true == 1);
 		
 		// [정수형]

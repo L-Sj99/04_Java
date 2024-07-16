@@ -21,7 +21,7 @@ public class VariableEx2 {
 		// 12 + 1.3 => int가 double로 바뀌어서 12.0 + 1.3 => 13.3이 나왔다
 		System.out.println(num1a + num1b); // 13.3
 		
-		// 2) 같은 자료형 끼리 연산(컴퓨터 값 처리 원칙과 연관성이 깊은)
+		// 2) 같은 자료형 끼리 연산(컴퓨터 값 처리 원칙과 연관성이 깊음)
 		int num2a = 3;
 		int num2b = 2;
 		// (int)3 / (int)2 => (double)1.5 => (int)1 

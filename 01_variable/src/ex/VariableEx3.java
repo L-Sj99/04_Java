@@ -73,7 +73,7 @@ public class VariableEx3 {
 		 * - 한 번 값을 대입하면 바꿀 수 없는 변수
 		 * 
 		 *  [작성법]
-		 *  final 자료형 변수명 = 값; -> 변수명은 대문자 (_) 형식으로 작성
+		 *  final 자료형 변수명 = 값; -> 변수명은 대문자 + (_) 형식으로 작성
 		 *  */
 		final double PI = 3.141592;
 		final int NATIONAL_CODE = 82;

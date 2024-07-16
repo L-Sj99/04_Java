@@ -76,6 +76,5 @@ public class PrintEx {
 		// 소수점 아래로 1자리 : %.1f -> 둘째 자리에서 반올림
 		double num = 1.25;
 		System.out.printf("%s/%.1f", name, num); // 홍길동/1.3
-		
 	}
 }
