@@ -29,7 +29,7 @@ public class ArrayEx1 {
 		// 배열 초기화 -> 배열 요소에 값 대입.
 		// 1) 배열을 생성하자마자 각 칸에 무슨 값이 저장되어 있을까?
 		// -> 각 자료형의 기본 값이 저장되어 있음
-		// -> int : 0 / double : 0.0 / long 0L / float : 0.0f / char : '\u0000' / boolean : false
+		// -> int : 0 / double : 0.0 / long : 0L / float : 0.0f / char : '\u0000' / boolean : false
 		
 		System.out.println(arr); // 배열의 해시코드(주소 비슷, 배열의 주소 느낌)
 		
