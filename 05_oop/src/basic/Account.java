@@ -43,7 +43,7 @@ public class Account {
 	public void withdraw(String pw, long amount) {
 		// 자바
 		// - 기본 자료형 값 비교(동일비교)는 A == B
-		// - 참조형(객체) 값 비교(동등비교)는 A.eqals(B)
+		// - 참조형(객체) 값 비교(동등비교)는 A.equals(B)
 		
 		if(!password.equals(pw)) { // 비밀번호가 일치하지 않을 때
 			System.out.println("비밀번호가 일치하지 않습니다");
