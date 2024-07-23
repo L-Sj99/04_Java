@@ -18,7 +18,7 @@ public class LoopEx2 {
 			for(int y = 1 ; y <= 4 ; y++) { // 열 제어(4열 반복)
 				System.out.print(y);
 			}
-			System.out.println(); // 한 행이 끝나면 줄 바꿈줄바꿈
+			System.out.println(); // 한 행이 끝나면 줄 바꿈
 			
 		}
 		
