@@ -17,11 +17,6 @@ public class CalculatorRun {
 		System.out.println( c.pow(2, 16) );
 		System.out.println( c.areaOfCircle(5.7) );
 		System.out.println( c.toBinary(100) );
-		System.out.println( c.toHexadecimal(100) );
-		
-		// 객체 배열
-		Calculator[] arr = new Calculator[5];
-		
-		
+		System.out.println( c.toHexadecimal(100) );		
 	}
 }

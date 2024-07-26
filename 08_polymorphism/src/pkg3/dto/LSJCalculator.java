@@ -87,16 +87,16 @@ public class LSJCalculator implements Calculator{
 	public String toBinary(int num) {
 		int a = num;
 			String BinaryString = Integer.toBinaryString(a);
-			System.out.println(Integer.toString(num, 2));
+			// System.out.println(Integer.toString(num, 2));
 			return BinaryString;
 	}
 	
-	// 10진수
+	// 16진수
 	@Override
 	public String toHexadecimal(int num) {
 		int a = num;
 		String hexString = Integer.toHexString(a);
-		System.out.println(Integer.toString(num, 16));
+		// System.out.println(Integer.toString(num, 16));
 		return hexString;
 	}
 }
