@@ -192,6 +192,4 @@ public class BookView {
 		System.out.printf("[%s] 가격이 (%d) -> (%d) 수정 되었습니다.\n", book.getTitle(), beforePrice, newPrice);
 		
 	}
-	
-	
 }
