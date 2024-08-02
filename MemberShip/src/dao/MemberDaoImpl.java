@@ -12,7 +12,7 @@ import java.util.List;
 import dto.Member;
 
 // MemberDao 인터페이스를 상속 받아 구현
-public class MemberDaoImpl implements MemberDao{
+public class MemberDaoImpl implements MemberDao {
 	
 	// 회원 데이터가 저장될 파일 경로를 상수로 지정
 	private final String FILE_PATH = "/io_test/membership.dat";
@@ -66,6 +66,7 @@ public class MemberDaoImpl implements MemberDao{
 		
 		return true; // 예외 발생 없을 시 성공적으로 파일에 저장됨
 	}
+	
 	// 파일 저장
 	@Override
 	public void saveFile() throws IOException {
@@ -78,4 +79,6 @@ public class MemberDaoImpl implements MemberDao{
 		if(oos != null) oos.close(); // flush() + 메모리 반환
 		}
 	}
+	
+	// 
 }

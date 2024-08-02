@@ -29,4 +29,5 @@ public interface MemberDao {
 	 * @throws IOException
 	 */
 	void saveFile() throws IOException;
+
 }
