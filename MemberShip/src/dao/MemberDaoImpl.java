@@ -79,6 +79,4 @@ public class MemberDaoImpl implements MemberDao {
 		if(oos != null) oos.close(); // flush() + 메모리 반환
 		}
 	}
-	
-	// 
 }

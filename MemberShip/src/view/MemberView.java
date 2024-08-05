@@ -267,7 +267,7 @@ public class MemberView {
 		
 		List<Member> searchList = service.selectName(targetName);
 		
-		 // 탈퇴 대상을 참조할 변수 선선언
+		 // 탈퇴 대상을 참조할 변수 선언
 		 Member target = null;
 		 
 		 if(searchList.size() > 1) { // 동명 이인 있을 경우
